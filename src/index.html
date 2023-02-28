@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../art/logo_transparent.jpg">
+    <title>Jessie Art Landing Page</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6 min-w-full bg-darkPurple">
+        <!-- Flex Container -->
+        <div class="flex items-center justify-between lg:justify-around">
+            <!-- Logo and Name-->
+            <div class="flex items-center pt-2">
+                <img src="../art/logo.jpg" alt="" class="max-h-20 rounded-md">
+                <a href="#" class="text-4xl pl-4 text-lightPurple font-bold hover:text-lightLime">
+                    Jessie's Art
+                </a>
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden space-x-6 text-lightPurple md:flex">
+                <a href="about.html" class="hover:text-lightLime">About Me</a>
+                <a href="ulala.html" class="hover:text-lightLime">Ulala Gallery</a>
+                <a href="realismGal.html" class="hover:text-lightLime">Realism Gallery</a>
+            </div>
+            <!-- Hamburger Icon -->
+            <div class="flex items-center pt-7 md:hidden">
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none ">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class=" absolute flex-col items-center self-end hidden mt-6 py-3 space-y-4 font-bold text-darkPurple bg-lightBlue sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="about.html" class="hover:text-black">About Me</a>
+                <a href="ulala.html" class="hover:text-black">Ulala Gallery</a>
+                <a href="realismGal.html" class="hover:text-black">Realism Gallery</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Image and Main Info Section -->
+    <section id="infoMain" class="flex-grow">
+        <!-- Flex Container -->
+        <div class="container flex flex-col items-center mt-10 px-6 mx-auto space-y-2 md:space-y-0 md:flex-row lg:justify-around">
+            <!-- Image -->
+            <div class="md:w-1/2">
+                <img src="../art/logo.jpg" alt="" class="rounded-md">
+            </div>
+            <!-- Right Item -->
+            <div class="flex flex-col p-3 space-y-3 md:w-1/2">
+                <h1 class="text-4xl font-bold text-darkPurple text-center md:text-left lg:text-5xl">
+                    Hello, I'm Jessica Rompas!
+                </h1>
+                <p class="text-center text-darkPurple md:text-left lg:text-lg">
+                    Welcome to my art page! I'm glad you stopped by!
+                    Here you will find all the artworks I wasn't too lazy to upload.
+                    The artworks are split into various galleries that you can explore at
+                    your own discretion.
+                </p>
+                <div class="flex-row flex space-x-2">
+                    <div class="flex w-1/2 justify-center">
+                        <a href="realismGal.html" class="p-3 w-full text-center text-lightPurple bg-darkPurple rounded-full baseline hover:bg-lightLime hover:text-darkPurple">
+                            Realism Gallery
+                        </a>
+                    </div>
+                    <div class="flex w-1/2 justify-center">
+                        <a href="ulala.html" class="p-3 w-full text-center text-lightPurple bg-darkPurple rounded-full baseline hover:bg-lightLime hover:text-darkPurple">
+                            Ulala Gallery
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Containing The Social -->
+    <footer class="bg-darkPurple">
+        <!-- Flex Container -->
+        <div class="container flex flex-col items-center justify-center py-5 space-y-3 mx-auto md:flex-row md:space-y-0 md:items-center md:space-x-3">
+            <!-- Logo -->
+            <div>
+                <a href="https://www.instagram.com/jessica.rompas/">
+                    <img src="../img/IG_brand_asset_pack_2022/Instagram Logo Pack/02 White Glyph/Instagram_Glyph_White.svg" class="h-10" alt=""/>
+                </a>
+            </div>
+            <!-- Name -->
+            <a href="https://www.instagram.com/jessica.rompas/" class="text-lg font-bold text-white">@jessica.rompas</a>
+
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
